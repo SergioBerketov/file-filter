@@ -17,26 +17,25 @@
 
 * Скопируйте готовый file-filter.jar файл из корневого каталога программы в папку с файлами для фильтрации. Имена входных файлов должны быть именно in1.txt и/или in2.txt;
 
-* В cmd c помощью команды cd перейдите в данный каталог и запустите утилиту;
+* В cmd c помощью команды cd перейдите в данный каталог и запустите утилиту.
 
-* Пример запуска утилиты в cmd: java -jar file-filter.jar -f -a -o ../your/path in1.txt in2.txt;
 
 ### Вариант №2:
 * Клонируйте проект с GitHub;
 
 * При помощи среды разработки создайте .jar файл(с MANIFEST.MF). Пример для Intellij IDEA:
-File->Project Structure->Artifacts-> +Jar Main class Application, Build->Build Artifacts->Build.
+File->Project Structure->Artifacts-> +Jar, Main class - Application, Build->Build Artifacts->Build.
 
 * Перенесите полученный .jar файл в каталог с файлами которые нужно отфильтровать. Имена входных файлов должны быть именно in1.txt и/или in2.txt;
 
-* В cmd c помощью команды cd перейдите в каталог с .jar файлом и файлами для фильтрации, и запустите утилиту;
+* В cmd c помощью команды cd перейдите в каталог с .jar файлом и файлами для фильтрации, и запустите утилиту.
 
-* Пример запуска утилиты в cmd: java -jar file-filter.jar -f -a -p sample- in1.txt in2.txt;
+Пример запуска утилиты в cmd: java -jar file-filter.jar -f -a -p sample- in1.txt in2.txt.
 
 ## Настройки
 * Версия java - JDK 17.
 * Система сборки - Maven 3.8.1.
-* Библиотека JCommander.
+* Дополнительная библиотека - JCommander.
 
 
 
