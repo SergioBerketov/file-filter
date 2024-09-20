@@ -12,19 +12,10 @@
 
 ## Использование
 
-### Вариант №1:
 * Клонируйте проект с GitHub;
 
-* Скопируйте готовый file-filter.jar файл из корневого каталога программы в папку с файлами для фильтрации. Имена входных файлов должны быть именно in1.txt и/или in2.txt;
-
-* В cmd c помощью команды cd перейдите в данный каталог и запустите утилиту.
-
-
-### Вариант №2:
-* Клонируйте проект с GitHub;
-
-* При помощи среды разработки создайте .jar файл(с MANIFEST.MF). Пример для Intellij IDEA:
-File->Project Structure->Artifacts-> +Jar, Main class - Application, Build->Build Artifacts->Build.
+* При помощи среды разработки создайте .jar файл. Пример для Intellij IDEA:
+File->Project Structure->Artifacts-> +Jar, Main class - Application, Build->Build Artifacts->Build;
 
 * Перенесите полученный .jar файл в каталог с файлами которые нужно отфильтровать. Имена входных файлов должны быть именно in1.txt и/или in2.txt;
 
